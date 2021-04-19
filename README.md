@@ -1,27 +1,8 @@
-# CycleGAN-TensorFlow
-An implementation of CycleGan using TensorFlow (work in progress).
+#Cycle-Dehaze: Enhanced CycleGAN for Single Image Dehazing
+## Prerequisites
 
-Original paper: https://arxiv.org/abs/1703.10593
-
-## Results on test data
-
-### apple -> orange
-
-| Input | Output | | Input | Output | | Input | Output |
-|-------|--------|-|-------|--------|-|-------|--------|
-|![apple2orange_1](samples/real_apple2orange_1.jpg) | ![apple2orange_1](samples/fake_apple2orange_1.jpg)| |![apple2orange_2](samples/real_apple2orange_2.jpg) | ![apple2orange_2](samples/fake_apple2orange_2.jpg)| |![apple2orange_3](samples/real_apple2orange_3.jpg) | ![apple2orange_3](samples/fake_apple2orange_3.jpg)|
-
-
-### orange -> apple
-
-| Input | Output | | Input | Output | | Input | Output |
-|-------|--------|-|-------|--------|-|-------|--------|
-|![orange2apple_1](samples/real_orange2apple_1.jpg) | ![orange2apple_1](samples/fake_orange2apple_1.jpg)| |![orange2apple_2](samples/real_orange2apple_2.jpg) | ![orange2apple_2](samples/fake_orange2apple_2.jpg)| |![orange2apple_3](samples/real_orange2apple_3.jpg) | ![orange2apple_3](samples/fake_orange2apple_3.jpg)|
-
-## Environment
-
-* TensorFlow 1.0.0
-* Python 3.6.0
+* TensorFlow 1.4.1
+* Python 3
 
 ## Data preparing
 
